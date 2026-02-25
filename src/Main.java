@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Матрица: ");
             printColors(colors);
             System.out.print("Введите угол поворота по часовой стрелке (90, 180, 270): ");
-            for (int amount = scanner.nextInt() / 90; amount != 0; --amount)
+            for (int turns = scanner.nextInt() / 90; turns != 0; --turns)
                 colors = rotateColors(colors);
         }
     }
